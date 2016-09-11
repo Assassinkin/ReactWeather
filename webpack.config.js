@@ -31,8 +31,8 @@ module.exports = {
         Examples: 'app/components/Examples.jsx',
         openWeatherMap: 'app/api/openWeatherMap.jsx',
         ErrorModal: 'app/components/ErrorModal.jsx',
-        applicationStyles: 'app/styles/app.scss'
-        //Bottom: 'app/components/Bottom.jsx'
+        applicationStyles: 'app/styles/app.scss',
+         Bottom: 'app/components/Bottom.jsx'
 
 
       },
@@ -47,13 +47,7 @@ module.exports = {
           test: /\.jsx?$/,
           exclude: /(node-modules|bower-components)/
         },
-        // {
-        //   test: /\.(jpe?g|png|gif|svg)$/i,
-        //   loaders: [
-        //     'file?hash=sha512&digest=hex&name=[hash].[ext]',
-        //     'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false','url-loader'
-        //   ]
-        // }
+        
       ]
     },
     devtool: 'inline-source-map'
